@@ -22,6 +22,7 @@ namespace Evaluation_Manager.Repositories {
             DB.CloseConnection();
             return activity;
         }
+        //Proba
 
         public static List<Activity> GetActivities() {
             List<Activity> activities = new List<Activity>();
